@@ -664,8 +664,8 @@ let arkanoid = (function () {
     generatePaddle()
     generateBalls()
     
-    if (!playerEnteredName)
-      askForPlayersName()
+    // if (!playerEnteredName)
+    //   askForPlayersName()
     
     idAnimationFrame = window.requestAnimationFrame(draw)
   }
