@@ -643,7 +643,7 @@ let arkanoid = (function () {
   */
   c.addEventListener('click', function () {
     playerClicked = true
-    releaseBalls ()
+    releaseBalls()
   })
   
   function init () {
@@ -653,7 +653,6 @@ let arkanoid = (function () {
     playerClicked = false
     setUpGameOptions()
     
-    // getScores()
     generateBricks()
     generatePaddle()
     generateBalls()
@@ -695,7 +694,6 @@ let arkanoid = (function () {
       drawLevel()
       drawMaximumScore()
       
-      // TODO Rewrite this
       if (!isLevelOver()) {
         idAnimationFrame = window.requestAnimationFrame(draw)
       } else {
