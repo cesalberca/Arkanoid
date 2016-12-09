@@ -1,11 +1,5 @@
-// TODO Remove the bricks from the array instead of making them invisible
-// TODO Remove the balls from the array instead of making them invisible
-// TODO Maximum score
-// TODO SKYNEEET
-
 /**********
 Arkanoid
-
 Made by César Alberca @cesalberca
 **********/
 
